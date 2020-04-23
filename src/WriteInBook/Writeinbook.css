@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@500&display=swap');
+
+
+
+.sell:not(#lend) {
+    display: flex;
+    direction: rtl;
+    text-align: right;
+    font-size: 44px;
+    margin-top: 10px;
+    margin-right: 20px;
+    font-family: 'Markazi Text', serif;
+    width: 96%;
+}
+
+#sell1{
+    color: white;
+    opacity: 1;
+    margin-right: 20px;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+}
+
+#lend1{
+    opacity: 0.5;
+    color:white;
+    text-decoration: none;
+}
+
+#or {
+    color: white;
+    opacity: .5;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.writeinbook {
+   /* background-image: url('http://getwallpapers.com/wallpaper/full/1/c/c/165989.jpg');*/
+    background-image: url('./165989_1.jpg');
+    background-size: cover;
+}
+
+.legend {
+    font-family: 'Reem Kufi', sans-serif;
+    display: block;
+    font-size: 28px;
+    color: white;
+}
+
+.wibook-form {
+    font-family: 'Markazi Text', serif;
+    line-height: 1.7;
+    border: 8px double black;
+    border-radius: 5%;
+    font-size: 22px;
+    width: 50%;
+    background-color: rgba(56, 43, 43, 0.7);
+    text-align: right;
+    margin-top: 20px;
+    margin-left: 700px;
+    padding: 40px;
+    direction: rtl;
+}
+
+#label {
+    color:white;
+}
+
+input[name="wi-book"] {
+    font-size: 16px;
+    font-family: 'Cairo', sans-serif;
+    color:white;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid white;
+}
+
+input[type="text"] {
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid white;
+    color: white;
+}
+input[type="number"] {
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid white;
+    color: white;
+}
+
+#category{
+    border-radius: 10%;
+    border: none;
+    
+}
+
+#form-submit {
+    width: 70px;
+    height: 40px;
+    background: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    transition: width 1s , height 1s;
+    opacity: 60%;
+    color:black;
+}
+
+#form-submit:hover {
+    width: 80px;
+    height: 42px;
+    opacity: 1;
+}
